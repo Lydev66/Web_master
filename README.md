@@ -1,2 +1,2 @@
 # Web_master
-Web应用集合
+这是一个Web前端网站页面项目仓库,基本上都是web前端应用页面的完整Demo
