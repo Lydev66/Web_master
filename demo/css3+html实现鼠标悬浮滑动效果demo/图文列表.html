@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>图文列表</title>
+
+<style type="text/css">
+/* CSS Document */
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    font-family:"微软雅黑";
+    background-color:#ddd;
+} 
+.box{
+    width:1024px;
+    height:400px;
+    background:#fff;
+    margin:30px auto;
+    padding:20px;
+}
+.box .head span{
+    font-size:18px;
+    color:#333;
+}
+.box .head{
+    margin-bottom:20px;
+}
+.box .head a{
+    text-decoration:none;
+    float:right;
+    font-size:15px;
+    color:#CD0707; 
+}
+.box .head a:hover{
+    color:#F00;
+}
+.box ul li{
+    width:210px;
+    height:140px;
+    list-style:none;
+    position:relative;
+    float:left;
+    margin-left:30px;
+    margin-bottom:30px;
+    overflow:hidden;
+}
+.box ul li .deatil{
+    width:210px;
+    height:140px;
+    background:rgba(0,0,0,0.7);
+    position:absolute;
+    top:-240px;
+    -webkit-transition:all 0.3s ease; <!--适应ie，谷歌，苹果浏览器内核-->
+    -o-transition:all 0.3s ease;      <!--适应Opera浏览器内核-->
+    -moz-transition:all 0.3s ease;    <!--火狐浏览器-->
+    -ms-transition:all 0.3s ease;     <!--微软-->
+}
+
+.box ul li .deatil h2{
+    font-size:18px;
+    color:#fff;
+	margin-bottom:20px;
+    text-align:center;
+    padding-top:30px;
+    }
+
+.box ul li .deatil a{
+    font-size:15px;
+    display:block;
+    color:#fff;
+    background-color:#F00;
+    text-decoration:none;
+    width:100px;
+    height:40px;
+	
+    text-align:center;
+    line-height:40px;
+    margin:0 auto;
+}
+.box ul li:hover .deatil{
+    top:0;
+}
+</style>
+</head>
+
+<body>
+  <div class="box">
+      <div class="head">
+         <span>热门新品</span>
+         <a href="#">更多></a>
+      </div>
+  <ul>
+    <li>
+      <div class="deatil">
+         <h2>华为手表</h2>
+     <a href="#">开始进入</a>
+      </div>
+      <img src="img/img (2).jpg" width="210px" height="140px" alt=""/>
+    </li>
+  <li>
+      <div class="deatil">
+         <h2>华为手表</h2>
+         <a href="#">点击进入</a>
+      </div>
+      <img src="img/img (1).jpg" width="210px"  height="140px" alt=""/>
+    </li>
+  <li>
+      <div class="deatil">
+         <h2>华为手机</h2>
+       <a href="#">点击进入</a>
+      </div>
+      <img src="img/img (3).jpg" width="210px"  height="140px" alt=""/>
+    </li>
+  <li>
+      <div class="deatil">
+         <h2>华为荣耀</h2>
+       <a href="#">点击进入</a>
+      </div>
+      <img src="img/img (5).jpg" width="210px"  height="140px" alt=""/>
+    </li>
+  <li>
+      <div class="deatil">
+         <h2>华为Pro30</h2>
+   <a href="#">点击进入</a>
+      </div>
+      <img src="img/img (6).jpg" width="210px"  height="140px" alt=""/>
+    </li>
+  <li>
+      <div class="deatil">
+         <h2>华为mate</h2>
+         <a href="#">点击进入</a>
+      </div>
+      <img src="img/img (8).jpg" width="210px"  height="140px" alt=""/>
+    </li>
+  <li>
+      <div class="deatil">
+         <h2>华为精品</h2>
+         <a href="#">点击进入</a>
+      </div>
+      <img src="img/img (4).jpg" width="210px"   height="140px" alt=""/>
+    </li>
+  <li>
+      <div class="deatil">
+         <h2>华为nova3</h2>
+         <a href="#">点击进入</a>
+      </div>
+      <img src="img/img (7).jpg" width="210px"  height="140px" alt=""/>
+    </li>
+  </ul>  
+  </div>
+</body>
+</html>
+
